@@ -33,6 +33,7 @@ const (
   TokensTable            = "oauth2_tokens"
 )
 
+var ErrorNotFound      = errors.New("Not found")
 var ErrorInvalidGrant  = errors.New("Invalid grant")
 var ErrorUnimplemented = errors.New("Unimplemented")
 
